@@ -1,0 +1,31 @@
+*{
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.A div.main.red{
+    color: red;
+}
+.B .parent div:nth-child(2){
+    color:red;
+}
+.C .parent > div:only-child{
+    color: red;
+}
+.D > div[title]:not(.no-need){
+    color: red;
+}
+.E div:nth-child(2) p + div{
+    color: red;
+}
+.F div:not(.no-need) div:nth-last-of-type(2) {
+    color: red;
+}
+.G div:first-child div:nth-child(5){
+    color: red;
+}
+.H :not(h3, :first-child, :last-child){
+    color: red;
+}
